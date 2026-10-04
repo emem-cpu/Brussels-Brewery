@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Brussels Brewery is your neighborhood stop for thoughtfully brewed coffee, fresh pastries, and good company."
+    />
+    <title>Brussels Brewery — Coffee, made with care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Brussels Brewery home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none">
+            <path d="M12 26h20c-.8 7-4.4 10-10 10s-9.2-3-10-10Z" />
+            <path d="M32 28h3a3 3 0 0 0 0-6h-3M17 19c0-2 2-2 2-4s-2-2-2-4m8 8c0-2 2-2 2-4s-2-2-2-4M9 40h26" />
+          </svg>
+        </span>
+        <span class="brand-name">
+          BRUSSELS
+          <span>BREWERY</span>
+        </span>
+      </a>
+
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" />
+      <label class="menu-button" for="menu-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#menu">Shop</a>
+        <a href="#story">About</a>
+        <a href="#ritual">Journal</a>
+        <a href="#visit">Locations</a>
+        <a class="nav-order" href="#menu">Order online <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span>
+            YOUR NEIGHBORHOOD COFFEE HOUSE
+          </p>
+          <h1>
+            Brewed to<br />
+            perfection,<br />
+            <em>served with love.</em>
+          </h1>
+          <p class="hero-description">
+            Thoughtfully sourced coffee, fresh-from-the-oven pastries, and a little more room to slow down.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#menu">Explore our menu <span>↗</span></a>
+            <a class="text-link" href="#visit">Find your Brussels <span>→</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-dot"></span>
+            Open daily, 7:30 am – 6 pm
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image"></div>
+          <div class="image-stamp" aria-hidden="true">
+            <span>GOOD DAYS</span>
+            <span>START HERE</span>
+            <span class="stamp-star">✳</span>
+          </div>
+          <div class="hero-image-caption">
+            <span>01 / 04</span>
+            <span>THE EVERYDAY RITUAL</span>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#story">
+          <span></span>
+          SCROLL TO SLOW DOWN
+        </a>
+      </section>
+
+      <section class="intro section-pad" id="story">
+        <div class="section-kicker">
+          <span>01</span>
+          <span class="kicker-rule"></span>
+          <span>A LITTLE ABOUT US</span>
+        </div>
+
+        <div class="intro-content">
+          <h2>
+            Good coffee.<br />
+            <em>Good company.</em><br />
+            That’s our kind of day.
+          </h2>
+
+          <div class="intro-aside">
+            <p class="intro-lead">A familiar corner, a favourite cup, a moment that’s just yours.</p>
+            <p>
+              We believe the best things are made with care and shared generously.
+              That’s why we work with lovely growers, bake in small batches, and
+              always leave room at the table.
+            </p>
+            <a class="underlined-link" href="#visit">Get to know us <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="intro-photo" role="img" aria-label="Freshly poured coffee on a sunny café table"></div>
+        <p class="photo-caption">
+          <span>A SLOW MORNING AT THE BREWERY</span>
+          <span>BRUSSELS, BE</span>
+        </p>
+      </section>
+
+      <section class="menu-section section-pad" id="menu">
+        <div class="menu-heading">
+          <div>
+            <div class="section-kicker">
+              <span>02</span>
+              <span class="kicker-rule"></span>
+              <span>THE GOOD STUFF</span>
+            </div>
+            <h2>
+              A few of<br />
+              <em>our favourites.</em>
+            </h2>
+          </div>
+          <a class="underlined-link" href="#visit">See the full menu <span>↗</span></a>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-photo menu-photo-one">
+              <span class="menu-number">01</span>
+            </div>
+            <div class="menu-card-info">
+              <div>
+                <h3>The house flat white</h3>
+                <p>Double espresso · silky milk</p>
+              </div>
+              <span>€4.20</span>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-photo menu-photo-two">
+              <span class="menu-number">02</span>
+            </div>
+            <div class="menu-card-info">
+              <div>
+                <h3>Honey oat latte</h3>
+                <p>Local honey · steamed oat milk</p>
+              </div>
+              <span>€5.10</span>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-photo menu-photo-three">
+              <span class="menu-number">03</span>
+            </div>
+            <div class="menu-card-info">
+              <div>
+                <h3>Morning bun</h3>
+                <p>Buttery layers · cinnamon sugar</p>
+              </div>
+              <span>€3.80</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="ritual" id="ritual">
+        <div class="ritual-image" role="img" aria-label="Barista preparing a fresh cup of coffee"></div>
+        <div class="ritual-copy">
+          <div class="section-kicker">
+            <span>03</span>
+            <span class="kicker-rule"></span>
+            <span>MADE WITH INTENTION</span>
+          </div>
+          <p class="ritual-quote">“A good cup can turn an ordinary moment into your favourite part of the day.”</p>
+          <div class="ritual-bottom">
+            <span>OUR LITTLE PHILOSOPHY</span>
+            <a class="underlined-link" href="#story">
+              The way we do things <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit section-pad" id="visit">
+        <div class="section-kicker">
+          <span>04</span>
+          <span class="kicker-rule"></span>
+          <span>COME ON IN</span>
+        </div>
+
+        <div class="visit-main">
+          <div>
+            <h2>
+              Your table<br />
+              is <em>waiting.</em>
+            </h2>
+            <p class="visit-text">Drop by for your usual, stay for a while. We’ll put the kettle on.</p>
+          </div>
+
+          <div class="visit-details">
+            <div>
+              <span>FIND US</span>
+              <p>Rue des Fleurs 24<br />1000 Brussels, Belgium</p>
+            </div>
+            <div>
+              <span>COME BY</span>
+              <p>Monday – Sunday<br />7:30 am – 6:00 pm</p>
+            </div>
+            <a class="button button-dark" href="https://maps.google.com/?q=Brussels+Belgium">Get directions <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="visit-image" role="img" aria-label="A welcoming Brussels café storefront"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 44 44" fill="none">
+            <path d="M12 26h20c-.8 7-4.4 10-10 10s-9.2-3-10-10Z" />
+            <path d="M32 28h3a3 3 0 0 0 0-6h-3M17 19c0-2 2-2 2-4s-2-2-2-4m8 8c0-2 2-2 2-4s-2-2-2-4M9 40h26" />
+          </svg>
+        </span>
+        <span class="brand-name">
+          BRUSSELS
+          <span>BREWERY</span>
+        </span>
+      </a>
+
+      <p>Something good is always brewing.</p>
+      <a class="footer-email" href="mailto:bonjour@brusselsbrewery.be">Say bonjour <span>↗</span></a>
+
+      <div class="footer-bottom">
+        <span>© 2025 BRUSSELS BREWERY</span>
+        <span>MADE SLOWLY, IN BRUSSELS</span>
+        <a href="#home">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
